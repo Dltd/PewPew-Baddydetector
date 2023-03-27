@@ -71,6 +71,7 @@ This can be simulated and runs sort of near real time but I haven't had time to 
 # v3 model
 https://youtu.be/B9omcdxjBJs
 
+![](/img/aLottaVaPewa.gif)
 
 # PoC v3
 
