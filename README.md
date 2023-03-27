@@ -5,6 +5,8 @@ v3:
 The Raspberry Pi connects to a server on which multiple honeypots run.
 The server listens on 8 ports and will monitor the log files of the honeypots for new attacks or automated scans and hacking attempts. 
 
+![](/img/aLottaVaPewa.gif) 
+
 The logs are tailed and bound to one of the ports. One log is monitored twice, where the second time it is filtered on a keyword.
 When the keyword is detected, it reflects input being entered in a shell on one of the honeypots. The connected LED only blinks when a bot or person actually does something in the pot.
 
