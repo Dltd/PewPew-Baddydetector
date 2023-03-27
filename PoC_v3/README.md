@@ -93,6 +93,8 @@ Two Python scripts, pewclient.py and pewserver.py are designed to work together 
 
 The pewclient.py script runs on a Raspberry Pi 1 that I had lying around, collection dust. It is responsible for connecting to the pewserver.py script. Upon receiving signals from the server, it blinks the corresponding LED to indicate new attacks taking plsce. The script automatically reconnects to the server if the connection is lost and can be gracefully terminated by typing exit in the console. 
 
+![](pewclient.v3.jpg)
+
 # PewServer
 
 The pewserver.py script is a server that listens on multiple ports, each corresponding to a specific log file. When a client (like pewclient.py) connects to one of the ports, the server tails the associated log file in real-time. For each new line detected in the log, the server sends a signal to the connected client.
@@ -100,6 +102,8 @@ The pewserver.py script is a server that listens on multiple ports, each corresp
 For one log, the data is filtered to reflect current activitiy by a bot or baddie in a shell in one of the honeypots.
 
 When the client disconnects, the server gracefully handles the disconnection and continues listening for new connections.
+
+![](pewserver.v3.1.jpg)
 
 # Setup
 
