@@ -56,6 +56,7 @@ You can edit it yourself on TinkerCAD [here](https://www.tinkercad.com/things/2N
 
 The server script runs on a Linux server that runs a collection of honeypots, [TPOT-CE](https://github.com/telekom-security/tpotce).
 The /data directory contains the logs of the different honeypots, I selected a few popular pots to use for my idea.
+These ports are only open for the IP from where the client connects from.
 The idea is for a similar but larger project and it needed this PoC to get it going.
 
 I wanted to create a physical dashboard that would notify me when there was an attack taking place on one of the honeypots.
