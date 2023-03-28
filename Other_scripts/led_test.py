@@ -1,3 +1,12 @@
+#!/usr/bin/python
+# Pi multiple LED tests v0.69
+# -----------------------
+# .__ . ,   .
+# |  \|-+- _|
+# |__/| | (_]
+#
+# Version: v1
+# -----------------------
 import RPi.GPIO as GPIO
 import time
 import threading
